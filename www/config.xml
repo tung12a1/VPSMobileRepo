@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.phonegap.vpsmobile"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>VPS Mobile</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        VPS Mobile is an internal application for Modern Dental Pacific team.
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+        Tommy Phan
     </author>
 
     <!-- Define the main entry-point to the application -->
@@ -55,7 +55,7 @@
     <platform name="android">
         <icon   src="www/res/icon/android/drawable-ldpi-icon.png"               density="ldpi" />
         <icon   src="www/res/icon/android/drawable-mdpi-icon.png"               density="mdpi" />
-        <icon   src="www/res/icon/android/drawable-hdpi-icon.png"               density="hdpi" />
+        <icon   src="www/res/icon/icon-144.png"               density="hdpi" />
         <icon   src="www/res/icon/android/drawable-xhdpi-icon.png"              density="xhdpi" />
         <icon   src="www/res/icon/android/drawable-xxhdpi-icon.png"             density="xxhdpi" />
         <icon   src="www/res/icon/android/drawable-xxxhdpi-icon.png"            density="xxxhdpi" />
@@ -74,9 +74,9 @@
     </platform>
 
     <platform name="ios">
-        <icon   src="www/res/icon/ios/icon.png"                         platform="ios" width="57"   height="57" />
-        <icon   src="www/res/icon/ios/icon@2x.png"                      platform="ios" width="114"  height="114" />
-        <icon   src="www/res/icon/ios/icon-40.png"                      platform="ios" width="40"   height="40" />
+        <icon   src="www/res/icon/icon-57.png"                         platform="ios" width="57"   height="57" />
+        <icon   src="www/res/icon/icon-144.png"                      platform="ios" width="114"  height="114" />
+        <icon   src="www/res/icon/icon-40.png"                      platform="ios" width="40"   height="40" />
         <icon   src="www/res/icon/ios/icon-40@2x.png"                   platform="ios" width="80"   height="80" />
         <icon   src="www/res/icon/ios/icon-50.png"                      platform="ios" width="50"   height="50" />
         <icon   src="www/res/icon/ios/icon-50@2x.png"                   platform="ios" width="100"  height="100" />
