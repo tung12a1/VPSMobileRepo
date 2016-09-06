@@ -1,0 +1,35 @@
+$brand: #3f67a7;
+$brandsub: #14171B;
+$primary: #333;
+.content-block, .content-block-title { color: $primary; }
+.text-{
+  &center{ text-align: center !important;}
+  &right{ text-align: right !important;}
+  &left{ text-align: left !important;}
+
+}
+.bg-{
+  &white {background: #fff;}
+}
+
+.page {
+  .page-content, .login-screen-content { padding-top: 40px; background: #fff url("../img/page-bg.jpg") no-repeat fixed left top / cover ;}
+}
+
+.navbar,.toolbar { background: #3f67a7; color: #FFF;
+  a { color: #fff;}
+}
+.panel.panel-left {
+  background: $brandsub;
+  .list-block {
+    border-bottom-color: lighten($brandsub,15%); border-top-color: lighten($brandsub,15%);
+    ul {
+      background: darken($brandsub,5%);
+      &:before,&:after {
+        background: lighten($brandsub,15%);
+      }
+    }
+
+  }
+}
+.footer-bar {width: 100%; position: fixed; bottom: 0px; text-align: center; padding: 10px; background: rgba(20,23,27,.7); color: #FFF; display: none;}

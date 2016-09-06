@@ -1,0 +1,60 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"><a class="back link" href="dashboard.html"><i class="fa fa-chevron-left" style="transform: translate3d(0px, 0px, 0px);"></i><span>Dashboard</span></a></div>
+        <div class="center sliding">Customer Lookup</div>
+        <div class="right"><a href="#" class="open-panel link icon-only">Menu&nbsp;<i class="fa fa-bars"></i></a></div>
+    </div>
+</div>
+
+<!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+<div class="pages navbar-through">
+    <!-- Page, data-page contains page name-->
+    <div data-page="customer-lookup" class="page">
+        <!-- Scrollable page content-->
+        <div class="page-content">
+            <form class="ajax-submit" id="frm-search-customer" >
+
+            <div class="content-block text-center">Please enter customer details for lookup</div>
+            <div class="list-block">
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="fa fa-hashtag"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">Acc. No</div>
+                                <div class="item-input">
+                                    <input type="text" name="acc_no" placeholder="eg. 0000"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="fa fa-user"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">Practice</div>
+                                <div class="item-input">
+                                    <input type="text" name="practice" placeholder="eg. ABC Smiles"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media"><i class="fa fa-phone"></i></div>
+                            <div class="item-inner">
+                                <div class="item-title label">Phone</div>
+                                <div class="item-input">
+                                    <input type="text" name="phone" placeholder="eg. 98763121"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <p class="text-center"><button type="submit" id="app-submit-btn" class="button active">Submit</button> </p>
+
+            </div>
+                </form>
+        </div>
+    </div>
+</div>
